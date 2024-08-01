@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 37.5%;
+    height: auto;
+}
+
+.change-size {
+
+    margin-bottom: 32px;
+    background-color: orange;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.square {
+    outline: .25px dotted gray;
+}
